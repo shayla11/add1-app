@@ -36,6 +36,7 @@
 		4EBBE905244E527B00A8491B /* addappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBBE909244E527B00A8491B /* addappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addappTests.swift; sourceTree = "<group>"; };
 		4EBBE90B244E527B00A8491B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EBBE914244E573000A8491B /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HVD_Comic_Serif_Pro.otf; path = "../../HVD-Comic-Serif-Pro/HVD_Comic_Serif_Pro.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 				4EBBE8FB244E527B00A8491B /* Assets.xcassets */,
 				4EBBE8FD244E527B00A8491B /* LaunchScreen.storyboard */,
 				4EBBE900244E527B00A8491B /* Info.plist */,
+				4EBBE914244E573000A8491B /* HVD_Comic_Serif_Pro.otf */,
 			);
 			path = addapp;
 			sourceTree = "<group>";
