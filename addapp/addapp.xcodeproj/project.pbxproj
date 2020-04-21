@@ -13,6 +13,7 @@
 		4EBBE8FC244E527B00A8491B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBBE8FB244E527B00A8491B /* Assets.xcassets */; };
 		4EBBE8FF244E527B00A8491B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBBE8FD244E527B00A8491B /* LaunchScreen.storyboard */; };
 		4EBBE90A244E527B00A8491B /* addappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBBE909244E527B00A8491B /* addappTests.swift */; };
+		4EBBE918244E81C700A8491B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBBE917244E81C700A8491B /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		4EBBE909244E527B00A8491B /* addappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addappTests.swift; sourceTree = "<group>"; };
 		4EBBE90B244E527B00A8491B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EBBE914244E573000A8491B /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HVD_Comic_Serif_Pro.otf; path = "../../HVD-Comic-Serif-Pro/HVD_Comic_Serif_Pro.otf"; sourceTree = "<group>"; };
+		4EBBE917244E81C700A8491B /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				4EBBE8FD244E527B00A8491B /* LaunchScreen.storyboard */,
 				4EBBE900244E527B00A8491B /* Info.plist */,
 				4EBBE914244E573000A8491B /* HVD_Comic_Serif_Pro.otf */,
+				4EBBE917244E81C700A8491B /* String.swift */,
 			);
 			path = addapp;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBBE918244E81C700A8491B /* String.swift in Sources */,
 				4EBBE8F7244E527B00A8491B /* GameViewController.swift in Sources */,
 				4EBBE8F5244E527B00A8491B /* AppDelegate.swift in Sources */,
 			);
