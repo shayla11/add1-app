@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -23,47 +23,47 @@
                         <viewControllerLayoutGuide type="bottom" id="MWk-oW-RQ1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Mpt-1n-puW">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="OR9-Wd-0bW">
-                                <rect key="frame" x="40" y="50" width="120" height="50"/>
+                                <rect key="frame" x="40" y="26" width="120" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="NAQ-pT-okj"/>
                                     <constraint firstAttribute="height" constant="50" id="bxi-EL-Eta"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOq-k3-Udn">
-                                <rect key="frame" x="75.666666666666671" y="61.666666666666664" width="49" height="26.666666666666664"/>
+                                <rect key="frame" x="76.666666666666671" y="37.666666666666664" width="46.666666666666671" height="26.666666666666664"/>
                                 <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time" translatesAutoresizingMaskIntoConstraints="NO" id="xlh-tY-3Oz">
-                                <rect key="frame" x="244" y="50" width="150" height="50"/>
+                                <rect key="frame" x="244" y="26" width="150" height="50.000000000000014"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Itu-cA-rJ8"/>
                                     <constraint firstAttribute="width" constant="150" id="Vud-yj-XwI"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="number" translatesAutoresizingMaskIntoConstraints="NO" id="UBO-Nb-vUD">
-                                <rect key="frame" x="57" y="160" width="300" height="122"/>
+                                <rect key="frame" x="57" y="136" width="300" height="122"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="bBq-Rg-Tyt"/>
                                     <constraint firstAttribute="height" constant="122" id="sBm-KA-LdJ"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6D-S8-M9y">
-                                <rect key="frame" x="129" y="180.33333333333334" width="156" height="81.666666666666657"/>
+                                <rect key="frame" x="133" y="155" width="148.33333333333337" height="84"/>
                                 <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="70"/>
                                 <color key="textColor" red="0.52941176470588236" green="0.30980392156862746" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="input" translatesAutoresizingMaskIntoConstraints="NO" id="lbk-2I-EJ8">
-                                <rect key="frame" x="82" y="302" width="250" height="110"/>
+                                <rect key="frame" x="82" y="278" width="250" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="JgT-zW-iDV"/>
                                     <constraint firstAttribute="width" constant="250" id="N4G-CA-6TR"/>
@@ -76,7 +76,7 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add 1 to each of the digits. So, 1357 becomes 2468" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIQ-Gj-7t7">
-                                <rect key="frame" x="19.666666666666657" y="747" width="375" height="65"/>
+                                <rect key="frame" x="19.666666666666657" y="621" width="375" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="FYK-iD-8Mg"/>
                                     <constraint firstAttribute="height" constant="65" id="IT6-oB-jfj"/>
@@ -86,7 +86,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ul4-4P-sF7">
-                                <rect key="frame" x="271.33333333333331" y="61.666666666666664" width="55.333333333333314" height="26.666666666666664"/>
+                                <rect key="frame" x="269.33333333333331" y="37.666666666666664" width="59.333333333333314" height="26.666666666666664"/>
                                 <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
