@@ -25,6 +25,7 @@ class GameViewController: UIViewController {
         
         updateScoreLabel()
         updateNumberLabel()
+        updateTimeLabel()
         
     }
     
@@ -36,7 +37,7 @@ class GameViewController: UIViewController {
         numberLabel?.text = String.randomNumber(length: 4)
     }
     
-    func updateTimeTabel(){
+    func updateTimeLabel(){
         let min = (seconds / 60) % 60
         let sec = seconds % 60
         
@@ -76,6 +77,17 @@ class GameViewController: UIViewController {
         updateNumberLabel()
         updateScoreLabel()
         inputField?.text = ""
+        
+        if timer == nil {
+            timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
+                if self.seconds <= 60 {
+                    self.seconds -= 1
+                    self.updateTimeLabel()
+                }
+                
+            }
+        }
+        
         
     }
 
